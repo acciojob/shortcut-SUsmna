@@ -2,11 +2,9 @@ function shortcut(s1, s2) {
   // your code here
 	if (s1 ==="" || s2===""){
 		return '';
-	}else{
-		return s1
 	}
 	const letters = s1.charAt(0) + s2.charAt(0);
-	return letters
+	return letters;
 }
 
 // Do not change the code below.
