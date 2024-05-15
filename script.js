@@ -2,8 +2,10 @@ function shortcut(s1, s2) {
   // your code here
 	if (s1 ==="" || s2===""){
 		return '';
+	}else{
+		return s1
 	}
-	const letters = s1.charAt(0).toLowerCase() + s2.charAt(0).toLowerCase();
+	const letters = s1.charAt(0) + s2.charAt(0);
 	return letters
 }
 
